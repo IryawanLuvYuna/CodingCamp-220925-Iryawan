@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Company - Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="brand" href="index.html">Company</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="profile.html">Our Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Banner -->
+    <section id="banner" class="banner">
+  <div class="banner-inner">
+    <h1>Selamat Datang di Warung Ayam Awan</h1>
+    <p>Ayam goreng jalanan dengan cita rasa internasional</p>
+  </div>
+</section>
+
+
+    <!-- About -->
+    <section id="about" class="container">
+  <h2>Tentang Kami</h2>
+  <p>
+    Warung Ayam Awan adalah usaha kuliner yang berfokus pada penyajian ayam goreng jalanan 
+    dengan kualitas premium dan rasa otentik. Kami memadukan bumbu tradisional dengan teknik 
+    masak modern untuk menghadirkan cita rasa unik yang mampu memuaskan selera masyarakat 
+    dari berbagai kalangan.
+  </p>
+</section>
+
+
+    <!-- Vision & Mission -->
+    <section id="vision" class="container">
+  <h2>Visi & Misi</h2>
+  <h3>Visi</h3>
+  <p>
+    Menjadi brand ayam goreng jalanan yang terpercaya, berkualitas, dan dikenal 
+    luas di seluruh Indonesia.
+  </p>
+
+  <h3>Misi</h3>
+  <ul>
+    <li>Menyajikan ayam goreng dengan kualitas terbaik dan harga terjangkau.</li>
+    <li>Mengutamakan kebersihan, keamanan pangan, dan pelayanan ramah.</li>
+    <li>Mengembangkan menu inovatif yang sesuai dengan selera pelanggan.</li>
+    <li>Mendukung pertumbuhan ekonomi lokal melalui pemberdayaan masyarakat sekitar.</li>
+  </ul>
+</section>
+
+
+    <!-- Welcome (JS will fill name) -->
+    <section id="welcome" class="container">
+      <h2 id="welcome-text">Hi, <span id="name-placeholder">Guest</span>!</h2>
+      <p>Selamat datang di website kami.</p>
+      <p>Punya pertanyaan seputar kami?</p>
+    </section>
+
+    <!-- Message Us form -->
+    <!-- Message Us form -->
+<section id="contact" class="container">
+  <h2>Message Us</h2>
+  <form id="message-form" novalidate>
+    <label>
+      Name
+      <input type="text" id="name" required placeholder="Your name">
+    </label>
+    <label>
+      Email
+      <input type="email" id="email" required placeholder="you@example.com">
+    </label>
+    <label>
+      Gender
+      <select id="gender" required>
+        <option value="">-- Select --</option>
+        <option value="Male">Laki-laki</option>
+        <option value="Female">Perempuan</option>
+        <option value="Other">Lainnya</option>
+      </select>
+    </label>
+    <label>
+      Message
+      <textarea id="message" required placeholder="Your message"></textarea>
+    </label>
+    <button type="submit">Send</button>
+  </form>
+
+  <div id="form-result" aria-live="polite"></div>
+</section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>&copy; <span id="year"></span> Company</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
